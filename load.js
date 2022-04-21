@@ -1,7 +1,7 @@
 const loadDouble = (num) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            const shouldFail = Math.random() > 0.5
+            const shouldFail = Math.random() > 1
 
             if (shouldFail) {
                 reject("My load error")
